@@ -10,10 +10,10 @@ void main() {
   var str = 'My age is:$age';
   print(str);
   //multiline
-  var strOne = """ 
+  var strOne = """
   I am a backend developer
-  I love coding 
-  Working my to way to open source Contribution 
+  I love coding
+  Working my to way to open source Contribution
   """;
   print(strOne);
   // variables
@@ -38,3 +38,17 @@ void main() {
   print('/ / /* / ?');
   print('/ / /* / / /  ?');
 }
+//raw string
+// main() {
+//   var str1 = r'God \ Almighty';
+//   var str2 = 'God \t Almighty';
+//     var str3 = 'God \nAlmighty';
+
+
+//   print(str1);
+//     print(str2);
+//         print(str3);
+//             print('\\');
+
+
+// }
